@@ -12,6 +12,6 @@
 
         function printhostname(){
             var hostname = location.hostname;
-            document.getElementById("hostname").innerHTML = hostname;
+            document.getElementById("hostname").innerHTML = "My IP Address : " + hostname;
         }
             
